@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:ifood_clone/Products/ui/product_page.dart';
+
+import 'routes/route_page.dart';
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
@@ -12,6 +13,6 @@ class MyApp extends StatelessWidget {
           primarySwatch: Colors.blue,
           visualDensity: VisualDensity.adaptivePlatformDensity,
         ),
-        home: ProductPage());
+        home: RoutePage());
   }
 }

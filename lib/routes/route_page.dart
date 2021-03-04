@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ifood_clone/Home/ui/home_page.dart';
 import 'package:ifood_clone/Products/ui/product_page.dart';
 
 class RoutePage extends StatefulWidget {
@@ -9,7 +10,7 @@ class RoutePage extends StatefulWidget {
 class _RoutePageState extends State<RoutePage> {
   int indexTap = 0;
 
-  final List<Widget> widgetsChildren = [ProductPage()];
+  final List<Widget> widgetsChildren = [HomePage(), ProductPage()];
 
   @override
   Widget build(BuildContext context) {
